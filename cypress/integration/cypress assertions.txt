@@ -1,0 +1,28 @@
+cypress assertions 
+1)IMPLICITE assertions
+THIS ARE THE BUILT IN ASSERTIONS WHICH CAN DIRECTELY SUPPORTED BY CYPRESS 
+                                                                                             ERRORS
+                                                                                             WEB CAME 
+THESE ARE a) should b) and
+should==> 
+
+
+2)EXPLICITE assertions
+THESE ARE WE NEED TO WRITE EXPLICITELY
+a)expect b)assert
+expect==> we use in Bdd aproach of framewrok
+assert==> use in tvd asssertion
+
+================================================================================================================================================================
+<========cy.url====>
+
+for capture the url we use ==>"cy.url()"
+for example ==>  cy.url().should('include','orangehrmlive.com') ----> from this we are checking that this is the part of url or not
+==============> cy.url().should('eq','orangehrmlive.com')----> so the eq is basically check the equality btw both the lines
+==============> cy.url().should('contain','orangehrm') ------> contain also check some part of the url or some contain
+
+
+
+
+
+

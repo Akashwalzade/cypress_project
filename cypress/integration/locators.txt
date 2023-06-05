@@ -1,0 +1,28 @@
+cypress supports by defaut css selector 
+----------------- CSS SELECTOR -----------------------------
+1) identify and select two main imp things
+2)cy.get ==> it identify the parameter/locator
+3)for class (we use dot to select any class(.))
+4)in "selector hub" we have to find the elements
+5)selectors
+ a)#(id) - we use hash to identify the id
+ b)dot - we use dot to find any class
+ c)tag attribute -- [attribute="value]
+ d)tag class attribute --- .class[attribute="value]
+6)contains==> to verify some text in the elements
+<!-- 7)npx cypress open ==> this perticular command help to open the cypress application -->
+8)time travel ==> we use this in cypress application(" test runner window ") we just need to lick on the steps of testcase(  this is feature of cypress)
+
+9)
+-----------------------------             X PATH COMMANDS       -----------------------------------
+
+INSTALLATION AND PLUGINS
+1)npm install -D cypress-xpath( install with npm)
+2)
+
+///<reference types="Cypress" /> ( this is ude for css selctor in default)  ---- this is allow to use and execute all the commands of the cypress to writing any testcase or suite
+///<reference types="Cypress-xpath" /> ( this is fpr x-path selector)
+
+
+
+
